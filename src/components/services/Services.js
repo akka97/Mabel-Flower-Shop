@@ -3,7 +3,6 @@ import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
 import TextField from "@mui/material/TextField";
-import Carousel from "../Carousel/Carousel";
 import "./Services.css";
 import servic_videoSrc from "../videos/services_video.mp4"
 
@@ -156,7 +155,7 @@ const Services = () => {
                     <Grid item md={5} className="imageContainerService">
                       <div className="firstImage">
                         <img
-                          src="https://static.showit.co/800/Z9MkKV_vT9GwCMZETDbsTA/172695/annie-spratt-csh0dwy_hnm-unsplash_1.jpg"
+                          src="https://images.pexels.com/photos/5272964/pexels-photo-5272964.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                           width={490}
                           height={595}
                           alt=""
@@ -164,7 +163,7 @@ const Services = () => {
                       </div>
                       <div className="secondImage">
                         <img
-                          src="https://static.showit.co/800/QvuXg87ZQ3yyiKno6nY6pA/shared/annie-spratt-ufa495wz0x8-unsplash_1.jpg"
+                          src="https://images.pexels.com/photos/8180510/pexels-photo-8180510.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                           width={490}
                           height={595}
                           alt=""
@@ -173,13 +172,12 @@ const Services = () => {
                     </Grid>
 
                     <Grid item md={6} className="exploreur">
-                      <h1>EXPLORATEUR TRAVEL WAS FOUNDED IN 2015</h1>
+                      <h1>Mabel Flowers was founded in 2020</h1>
                       <p>
-                        To provide a modernized solution to travel planning. Our
-                        philosophy is that travel isn’t only about seeing a destination,
-                        but it is about feeling the culture. We focus on experiential
-                        travel, allowing you to fully immerse yourself into your chosen
-                        destination.
+                        The inception of Mabel Flowers was inspired by a deep passion for bringing nature's beauty to people's lives.
+                        We believe that flowers have the remarkable ability to convey emotions, celebrate special moments, and brighten everyday life.
+                        Our shop was created to share this belief and offer a place where people can access thoughtfully curated,
+                        high-quality blooms to express their feelings and create lasting memories.
                       </p>
                       <h2>About Us</h2>
                       <Button variant="contained">Learn more</Button>
@@ -197,7 +195,6 @@ const Services = () => {
                     <h4>
                       <Button variant="contained" className="subscribeButton">Choose your gift</Button>
                     </h4>
-                    <Carousel />
                   </Grid>
                 </Grid>
               </div>
